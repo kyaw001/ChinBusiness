@@ -1,0 +1,335 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="style.css">
+
+  <script src="formValidation.js"></script>
+  <script src="https://smtpjs.com/v3/smtp.js"></script>
+  
+  <title>Wakeup Your Beauty</title>
+  <script type="text/javascript"
+        src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js">
+  </script>
+  <script type="text/javascript">
+   (function(){
+      emailjs.init("7dDXJd9x807z2KhAl");
+   })();
+  </script>
+
+</head>
+<body>
+  <!-- Header -->
+  <section id="header">
+    <div class="header container">
+      <div class="nav-bar">
+        <div class="logoName">
+          <a href="#hero">
+            <h1><span>Chi </span> Beauty</h1>
+          </a>
+        </div>
+        <div class="nav-list">
+          <div class="burger">
+            <div class="bar"></div>
+          </div>
+          <ul>
+            <li class="hero active"><a href="#hero" data-after="Home">Home</a></li>
+            <li class="services"><a href="#services" data-after="Service">Services</a></li>
+            <li class="projects"><a href="#projects" data-after="Projects">Reviews</a></li>
+            <li class="about"><a href="#about" data-after="About">Special</a></li>
+            <li class="contact"><a href="#contact" data-after="Contact">Contact</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- End Header -->
+
+  <!-- Hero Section  -->
+  <section id="hero">
+    <div class="hero container">
+      <div>
+        <h1> My name is Thi Kim Chi.</h1>
+        <h1> I am the Certified Comestic tattoo artist and beautician</h1>
+        <h1> With 4 years of experience</h1>
+        <a href="#projects" type="button" class="cta">Explore </a>
+      </div>
+    </div>
+  </section>
+  <!-- End Hero Section  -->
+
+  <!-- Service Section -->
+  <section id="services">
+   
+    <div class="services container">
+      <div class="service-top">
+        <h1 class="section-title">Services</h1>
+        <h2 class="subsection-title"> Services and Prices </h2>
+      </div> 
+      
+      <div class="service-bottom">
+            <ul class="prices"> 
+              <li class="header">Eyebro(Phibrows Technique)</li>
+              <li >Magic Shadowing </li>
+              <li> Ombre           </li>
+              <li> Eyebrow Fix     </li>
+              <li> Eyeliners       </li>
+              <li class="service-footer">Price Range is from $80 to $500.</li> 
+              <li class="service-button">Contact Me<a href="#Contact Me" class="button" alt="#"></a></li>       
+            </ul> 
+        
+          <ul class="prices"> 
+            <li class="header">Eyebro(Phibrows Technique)</li>
+            <li >Magic Shadowing </li>
+            <li> Ombre           </li>
+            <li> Eyebrow Fix     </li>
+            <li> Eyeliners       </li>
+            <li class="service-footer">Price Range is from $80 to $500.</li> 
+            <li class="service-button">Contact Me<a href="#Contact Me" class="button" alt="#"></a></li>       
+          </ul>
+          <ul class="prices"> 
+            <li class="header">Eyebro(Phibrows Technique)</li>
+            <li >Magic Shadowing </li>
+            <li> Ombre           </li>
+            <li> Eyebrow Fix     </li>
+            <li> Eyeliners       </li>
+            <li class="service-footer">Price Range is from $80 to $500.</li> 
+            <li class="service-button">Contact Me<a href="#Contact Me" class="button" alt="#"></a></li>
+          </ul> 
+          <ul class="prices"> 
+            <li class="header">Eyebro(Phibrows Technique)</li>
+            <li >Magic Shadowing </li>
+            <li> Ombre           </li>
+            <li> Eyebrow Fix     </li>
+            <li> Eyeliners       </li>
+            <li class="service-footer">Price Range is from $80 to $500.</li> 
+            <li class="service-button">Contact Me<a href="#Contact Me" class="button" alt="#"></a></li>
+          </ul>
+        </div>
+      
+        <div class="service-bottom-info">
+          For more information, 
+         you can send me email or send me message on messenger. Alternatively, I can be reached out on 0433 466 477.  
+        </div>
+
+      </div>
+    </div>
+  </section>
+  
+  <!-- End Service Section -->
+
+  <!-- Projects Section -->
+  <section id="projects">
+    <div class="projects container">
+      <div class="projects-header">
+        <h1 class="section-title">Recent <span>Projects</span></h1>
+      </div>
+
+      <div class="all-projects">
+        <div class="project-item">
+          <div class="project-info">
+            <h2>MakeUp</h2>
+            <div class="caption-container">
+              <p id="caption"></p>
+            </div> 
+        </div>
+
+         <div class="project-img">
+            <div class="mycontainer">
+              <div class="mySlides">
+                <div class="numbertext">1 / 4</div>
+                <img src="./img/logo3.jpg" alt="" />
+              </div>
+            
+              <div class="mySlides">
+                <div class="numbertext">2 / 4</div>
+                <img src="./img/logo.jpg" alt="">
+              </div>
+              <div class="mySlides">
+                <div class="numbertext">3 / 4</div>
+                <img src="./img/logo.jpg" alt="">
+              </div>
+              <div class="mySlides">
+                <div class="numbertext">4 / 4</div>
+                <img src="./img/logo3.jpg" alt="">
+              </div>
+                           
+              <a class="prev"  onclick="plusSlides(-1)">❮</a>
+              <a class="next" onclick="plusSlides(1)">❯</a>
+                
+            </div>
+          </div>
+         
+        </div>     
+      
+            <div class="row">
+                    <div class="column">
+                      <img class="photos cursor" src="./img/logo3.jpg" style="width:100%" onclick="currentSlide(1)" alt="Thank you so much for visiting my page">
+                    </div>
+                    <div class="column">
+                      <img class="photos cursor" src="./img/logo.jpg" style="width:100%" onclick="currentSlide(2)" alt="Welcome">
+                    </div>
+                    <div class="column">
+                      <img class="photos cursor" src="./img/logo.jpg" style="width:100%" onclick="currentSlide(3)" alt="Thanks">
+                    </div>
+                    <div class="column">
+                      <img class="photos cursor" src="./img/logo3.jpg" style="width:100%" onclick="currentSlide(1)" alt="Thank you so much for visiting my page">
+                    </div>
+            </div>
+        </div>
+      </div>
+    
+  </section>
+  <!-- End Projects Section -->
+
+  <!-- About Section -->
+  <section id="about">
+    <div class="about container">
+      
+      <div class="col-right">
+        <h1 data-text="Promotion" class="section-title"><span>Promotion</span></h1>
+        <div class="about-info">
+          <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Asperiores, 
+            reprehenderit libero enim!</p>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Asperiores, 
+              reprehenderit libero enim!</p>
+             
+           
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Asperiores, 
+              reprehenderit libero enim!</p>
+        </div>
+      </div>
+      <div class="col-left">
+        <h1>Subscribe with me</h1>
+        <form name="submit-to-google-sheet" class="googleSheetForm">
+          <input name="email" type="email" placeholder="Email" required>
+          
+          <a href="#contact"  class="cta"> <button type="submit" style="border: none;background-color: transparent; font-size: 2rem;" >Subscribe</button></a>
+        </form>
+        
+      </div>
+    </div>
+    
+  </section>
+  <!-- End About Section -->
+
+  <!-- Contact Section -->
+  <section id="contact">
+    <div class="contact container">
+      
+       <div class="contact-item">
+          <div class="contact-info">
+            <div>
+              <h1 class="section-title"><span>Contact</span> Me</h1>
+            </div>
+            
+            <form  id="form" action="#"  method="get" name="contactForm" onsubmit="return validatingForm()">
+              <div class="row">
+                <div class="col-25">
+                  <label for="name">Name</label>
+                </div>
+                <div class="col-75">
+                  <input type="text" id="name" name="name" placeholder="Your name..">
+                  <div id="nameErr" class="errors"></div>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-25">
+                  <label for="phnum">Phone Number</label>
+                </div>
+                <div class="col-75">
+                  <input type="text" id="phnum" name="phnum" placeholder="Your phone number..">
+                  <div id="phnumErr" class="errors"></div>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-25">
+                  <label for="email">Email(Optional)</label>
+                </div>
+                <div class="col-75">
+                  <input type="email" id="email" name="email" placeholder="Your email..">
+                  <div id="emailErr" class="errors"></div>
+                                  </div>
+              </div>
+              <div class="row">
+                <div class="col-25">
+                  <label for="inquiry">Select an option for an inquiry</label>
+                </div>
+                <div class="col-75">
+                  <select id="inquiry" name="inquiry">
+                    <option value="default" selected>Please select any topic below.</option>
+                    <option value="Appointment">Consulation Appointment</option>
+                    <option value="inquiry">Price Inquiry</option>
+                    <option value="others">General Inquiry</option>
+                  </select>
+                  <div id="inquiryErr" class="errors"></div>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-25">
+                  <label for="subject">Please tell me how I can help</label>
+                </div>
+                <div class="col-75">
+                  <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+                  <div id="subjectErr" class="errors"></div>
+                </div>
+              </div>
+              <div class="row">
+                <input type="submit" value="Submit"   name="submit" class="submit">
+              </div>
+            </form>
+          </div>
+        </div>
+      
+    </div>
+  </section>
+  <!-- End Contact Section -->
+
+  <!-- ` -->
+  <section id="footer">
+    <div class="footer footer-container">
+
+      <div class="col-left">
+        <h1>location</h1>
+        <P><i class="fa fa-map-marker" style="font-size:24px"></i>Ashcroft,NSW, 2168</P>
+        
+        <p><i class="fa fa-phone" aria-hidden="true"></i>0433466477</p>
+
+      </div>
+      <div class="col-right">
+        <h1 >Get Connected with me on</h1>  
+        <div class="social-item">
+
+            <a href="#" ><i class="fa fa-facebook"></i></a>
+            <a href="#"><i class="fa fa-instagram"></i></a>
+            <a href="#"><i class="fa fa-linkedin"></i></a>
+          
+        </div>
+        <p>Copyright © 2023 Kyle Tun</p>
+      </div>
+    </div>
+  </section>
+  <!-- End Footer -->
+ 
+  <script src="./app.js"></script>
+
+  <script>
+    const scriptURL = '<SCRIPT URL>'
+    const form = document.forms['submit-to-google-sheet']
+  
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => console.log('Success!', response))
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+</body>
+
+</html>

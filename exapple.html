@@ -1,0 +1,112 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset='utf-8'>
+  <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+  <title>Page Title</title>
+  <meta name='viewport' content='width=device-width, initial-scale=1'>
+  <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+<style>
+  *{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+
+  .row{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 4px;
+    align-items: center;
+    justify-content: center;
+    }
+
+  .col{
+    display: inline-flex;
+    flex-direction: row;
+    max-width: 25%;
+    width: 10%;
+    padding: 0 5px;
+  }
+  .col img{
+    margin-top: 10px;
+    vertical-align: middle;
+    width: 10%;
+  }
+.container{
+  display: flex;
+  position: relative;
+  align-content: center;
+  justify-content: center;
+  max-width: 1200px;
+  width: 100vh;
+}
+
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  border: 1px gray solid;
+  border-radius: 2px;
+  color: aliceblue;
+  width: auto;
+  font-size: 20px;
+  top: 40%;
+  padding: 16px;
+  margin-top:290px;
+  }
+
+  .next {
+    border-radius: 3px 0 0 3px;
+}
+
+  @media screen and (max-width: 500px) {
+      .col{
+        flex: 50%;
+        max-width: 100%;
+      }
+  }
+
+</style>
+
+</head>
+<body>
+
+  <div class="container">
+      <a class="prev" onclick="plusSlides(-1)"> <<<<<</a>
+    <div class="slider">
+      <div class="numbertext">
+        1/2
+      </div>
+      <img src="./img/img-1.png" alt="mytdd">
+    </div>
+    <div class="slider">
+      <div class="numbertext">
+        1/2
+      </div>
+      <img src="./img/img-1.png" alt="mytdd">
+    </div>
+
+    
+    <a class="next" onclick="plusSlides(1)"> >>>>>> </a>
+    <div class="caption-container">
+      <p id="caption"> </p>
+    </div>
+  </div>
+  
+  <div class="row">
+    <div class="col">
+      
+      <img src="./img/img-1.png" alt="" class="">
+      <img src="./img/logo.jpg" alt="" class="">
+    </div>
+    <div class="col">
+        <img src="./img/img-1.png">
+        <img src="./img/img-1.png" alt="" class="">
+        <img src="./img/logo.jpg" alt="" class="">
+    </div>
+
+  </div>
+  
+</body>
+</html>
